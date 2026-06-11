@@ -26,7 +26,7 @@ supabase: Client = create_client(
 )
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-TEST_CHAT_ID = "772692273"
+TEST_CHAT_ID = "CHAT_ID"
 
 print("✅ Сервер запущено успішно")
 
